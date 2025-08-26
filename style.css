@@ -47,6 +47,12 @@ body{
     gap: 32px;  /*Espaçamento entre os elementos dentro da classe pai*/
 }
 
+.apresentacao__links__subtitulo{
+    font-family: 'krona One' , 'sans-serif';
+    font-weight: 400;
+    font-size: 24px;
+}
+
 .apresentacao__links__link{
     background-color: #22D4FD;
     width: 280px;
