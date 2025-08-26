@@ -11,8 +11,21 @@ body{
     color: #F6F6F6;
 }
 
-.titulo-destaque{
+.cabecalho {
+    padding: 2% 0 0 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: 'montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
     color: #22D4FD;
+    text-decoration: none;
 }
 
 .apresentacao{
@@ -21,6 +34,7 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+
 .apresentacao__conteudo{
     width: 615px;
     display: flex;
@@ -31,6 +45,11 @@ body{
 .apresentacao__conteudo__titulo{
     font-size: 36px;
     font-family: 'Krona One', sans-serif;
+}
+
+
+.titulo-destaque{
+    color: #22D4FD;
 }
 
 .apresentacao__conteudo__texto{
